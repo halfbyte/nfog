@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>{{term.text|escape}}</title>
+	
+</head>
+
+<body>
+  <h1>{{term.text|escape}} can not be found on Google</h1>
+  <p>Not found on {{ term.date|date:"Y-m-d"}}. Wanna <a href="http://www.google.com/search?q={{ term.text|escape }}">try again?</a> </p>
+  <p><a href="/">back</a></p>
+</body>
+</html>
